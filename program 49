@@ -1,0 +1,6 @@
+#49
+def x(N):
+  xN= N**2 +1
+  print("Result= ",xN)
+n= 4
+x(n)
