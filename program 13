@@ -1,0 +1,25 @@
+#13
+a= int(input("Enter the marks of PHYSICS:- "))
+b= int(input("Enter the marks of CHEMISTRY:- "))
+c= int(input("Enter the marks of BIOLOGY:- "))
+d= int(input("Enter the marks of MATHEMATICS:- "))
+e= int(input("Enter the marks of COMPUTER10:- "))
+Tot_marks= (a+b+c+d+e)
+prcntg= (Tot_marks*100)/500
+print(10)
+if(a>100 or b>100 or c>100 or d>100 or e>100):
+  print("Marks are invalid...")
+else:
+  if(prcntg>= 90):
+   print("\nGrade A")
+  elif(prcntg>= 80):
+   print("\nGrade B")
+  elif(prcntg>= 70):
+   print("\nGrade C")
+  elif(prcntg>= 60):
+   print("\nGrade D")
+  elif(prcntg>= 40):
+   print("\nGrade E")
+  elif(prcntg< 40):
+   print("\nGrade F")
+  print("Total Percentage:- ",prcntg,"%")
