@@ -1,0 +1,10 @@
+#63
+lst= []
+n= int(input("Enter a number of elements: "))
+for i in range(n):
+  lst.append(float(input("-> ")))
+print(lst)
+pos= int(input("Enter a position number:- "))
+element= float(input("Enter an element to insert: "))
+lst.insert(pos, element)
+print("List after inserting new element:- \n",lst)
