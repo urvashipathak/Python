@@ -1,0 +1,12 @@
+#14
+A= int(input("Enter the age of Ayushi:- "))
+Y= int(input("Enter the age of Yashika:- "))
+P= int(input("Enter the age of Priya:- "))
+if(A<Y and A<P):
+  print("Aayushi is youngest girl...")
+elif(Y<P and Y<A):
+  print("Yashika is youngest girl...")
+elif(P<A and P<Y):
+  print("Priya is youngest girl...")
+else:
+  print("All 3 are of same ages")
