@@ -1,0 +1,8 @@
+#64
+lst= []
+n= int(input("Enter a number of elements:- "))
+for i in range(n):
+  lst.append(int(input("-> ")))
+print(lst)
+print("Highest element:- ",max(lst))
+print("Lowest element:- ",min(lst))
