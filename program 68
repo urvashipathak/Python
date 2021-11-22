@@ -1,0 +1,13 @@
+# 68
+def SubList(l):
+  lst1= [[]]
+  for i in range(len(l)+1):
+    for j in range(i):
+      lst1.append(l[j:i])
+  return lst1
+  
+lst= []
+n= int(input("Enter a number of elements: "))
+for i in range(n):
+  lst.append(str(input("-> ")))
+print(SubList(lst))
