@@ -1,0 +1,5 @@
+#7
+str_1= "120"
+str_2= "120.5"
+print("Parsed into INT= ",int(str_1))
+print("Parsed into FLOAT= ",float(str_2))
