@@ -1,0 +1,9 @@
+#35
+str1= input("Enter the first string: ")
+str2= input("Enter the second string: ")
+lst_1= list(str1)
+lst_2= list(str2)
+s= lst_1[0]
+lst_1[0]= lst_2[0]
+lst_2[0]= s
+print("Swaping after first charachter of both the strings:- \n",''.join(lst_1),"and",''.join(lst_2))
