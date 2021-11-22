@@ -1,0 +1,9 @@
+#66
+lst= []
+n= int(input("Enter the elements: "))
+for i in range(n):
+  lst.append(float(input("->")))
+print(lst)
+i= int(input("Enter a index number: "))
+lst.pop(i)
+print("List after deletion of element: ",lst)
