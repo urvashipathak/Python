@@ -1,0 +1,3 @@
+#34
+string= str(input("Enter the string: "))
+print("The length of a given string: ",len(string))
