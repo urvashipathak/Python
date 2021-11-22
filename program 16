@@ -1,0 +1,8 @@
+#16
+tc= int(input("Total number of working days:- "))
+c= int(input("total no of days worked:- "))
+percentage= (c*100)/tc
+if(percentage<80):
+  print("Not eligible for exam...")
+else:
+  print("eligible for exam...")
