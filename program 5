@@ -1,0 +1,4 @@
+#5
+a= int(input("Enter an intiger= "))
+SOP= a + a*a + a*a*a
+print(SOP)
