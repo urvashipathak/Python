@@ -1,0 +1,10 @@
+#10
+price= 100
+n= int(input("Enter a number of quantity you purchased:- "))
+tot_price= n*100
+dscnt= 0
+if(tot_price>10000):
+  dscnt= tot_price*0.5
+  print("Your bill with 50% discount= ",dscnt)
+else:
+  print("Your total bill is:- ",tot_price,"\n          Discount:- ",dscnt)
