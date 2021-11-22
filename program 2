@@ -1,0 +1,4 @@
+#2
+a= int(input("Enter the intiger: "))
+b= int(input("Enter another intiger: "))
+print("Product= ",a*b)
