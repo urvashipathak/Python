@@ -1,0 +1,8 @@
+#8
+num1= int(input("Enter a number:- "))
+num2= int(input("Enter another number:- "))
+c= num1+num2
+if(c>100):
+  print("Since sum is greater 100 so the product will be",num1*num2)
+else:
+  print("Sum of two number is ",c)
