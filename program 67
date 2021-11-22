@@ -1,0 +1,9 @@
+# 67
+lst= []
+n= int(input("Enter a number of elements:- "))
+for i in range(n):
+    lst.append(int(input("-> ")))
+lst.pop(1)
+lst.pop(2)
+lst.pop(5)
+print(lst)
