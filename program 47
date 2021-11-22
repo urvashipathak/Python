@@ -1,0 +1,10 @@
+#47
+def sum(ss):
+  k= 0
+  for i in ss:
+    if i.isdigit()==True:
+      a= int(i)
+      k= k+a
+  print("SUM of digits:- ",k)
+s= input("Enter a string:- ")
+sum(s)
