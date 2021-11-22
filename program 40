@@ -1,0 +1,7 @@
+#40
+s= input("Enter a string:- ")
+print("Orignal string:- ",s)
+s1= s.lower()
+print("Input string in lower case ->",s1)
+s2= s.upper()
+print("Input string in upper case ->",s2)
