@@ -1,0 +1,6 @@
+#11
+n= int(input("Enter a number:- "))
+if(n%8==0 and n%12==0):
+  print("Number is divisible by both 8 and 12...")
+else:
+  print("Number can be divisible by either 8 or 12 \nOR\nnot divisible by both")
