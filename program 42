@@ -1,0 +1,4 @@
+#42
+s= input("Enter a string:- ")
+n= int(input("Enter a number of charachters to be lowercased (from starting):- "))
+print(s[:n].lower()+ s[n:])
