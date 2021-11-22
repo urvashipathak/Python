@@ -1,0 +1,16 @@
+#15
+units= int(input("Enter the number of units:- "))
+if (units<= 50):
+  charges= (0.5*units)+ 20/100
+  print("Electricity Bill:- ",charges)
+elif(units<= 100):
+  charges= (0.75*units)+ 20/100
+  print("Electricity Bill:- ",charges)
+elif(units<= 250):
+  charges= (1.20*units)+ 20/100
+  print("Electricity Bill:- ",charges)
+elif(units> 250):
+  charges= (1.50*units)+ 20/100
+  print("Electricity Bill:- ",charges)
+ 
+
