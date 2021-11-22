@@ -1,0 +1,10 @@
+#37
+word= input("Enter the string: ")  # say "google.com"
+lst= list(word)
+D_word= {}
+for i in lst:
+  key= i
+  value= lst.count(i)
+  D_word.update({key:value})
+print(D_word)
+  
