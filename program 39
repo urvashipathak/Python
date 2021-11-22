@@ -1,0 +1,8 @@
+#39
+a= input("Enter a string:- ")
+print("Orignal string:- ",a)
+b= list(a)
+n= len(b)
+for i in range(0, n+1, 2):
+  b.pop(i)
+print(b)
