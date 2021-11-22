@@ -1,0 +1,17 @@
+#26
+n= int(input("Enter a number: "))
+temp= n
+sum= 0
+while n>0:
+  i= 1
+  fact= 1
+  digit= n%10
+  for j in range(digit+1):
+    fact= fact*j
+    j+= 1
+  sum= sum+ fact
+  n= n//10
+if sum==temp:
+  print(n,"is a strong number")
+else:
+  print(n,"is not a strong number")
