@@ -1,0 +1,3 @@
+#41
+s= "Protect yourself against COVID-19 and stay safe and secure"
+print("count of substring AND =",s.count("and"))
