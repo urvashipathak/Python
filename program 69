@@ -1,0 +1,12 @@
+# 69
+num= int(input("Enter a number:- "))
+n= int(input("Enter a number of elements:- "))
+lst= []
+for i in range(n):
+  lst.append(int(input("-> ")))
+print(lst)
+l= []
+for i in lst:
+  if i>num:
+    l.append(i)
+print(l)
