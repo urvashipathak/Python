@@ -1,0 +1,12 @@
+# 70
+lst= []
+n= int(input("Enter a number of elements:- "))
+print("Create a list of",n,"integers")
+for i in range(n):
+  lst.append(int(input("-> ")))
+print(lst)
+even_lst= []
+for j in lst:
+  if j%2==0:
+    even_lst.append(j)
+print(even_lst)
